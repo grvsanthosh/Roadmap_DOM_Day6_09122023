@@ -24,18 +24,18 @@ const buttonelement_start = document.createElement('button');
 buttonelement_start.innerHTML = "START";
 buttonelement_start.classList.add('button-start');
 //reset
-const buttonelement_reset = document.createElement('button');
-buttonelement_reset.innerHTML = "RESET";
-buttonelement_reset.classList.add('button-reset');
+// const buttonelement_reset = document.createElement('button');
+// buttonelement_reset.innerHTML = "RESET";
+// buttonelement_reset.classList.add('button-reset');
 
 divelement.appendChild(h1element);
 divelement.appendChild(h1element_seconds);
 divelement.appendChild(h1element_content);
 divelement.appendChild(buttonelement_start);
-divelement.appendChild(buttonelement_reset);
+// divelement.appendChild(buttonelement_reset);
 
 buttonelement_start.setAttribute('onclick', 'startoperation()');
-buttonelement_reset.setAttribute('onclick', 'restoperation()');
+// buttonelement_reset.setAttribute('onclick', 'restoperation()');
 
 
 // const startoperation = () => {
@@ -54,11 +54,11 @@ buttonelement_reset.setAttribute('onclick', 'restoperation()');
 
 // }
 
-const restoperation = () => {
-    count = 10;
-    h1element_seconds.innerHTML = count;
+// const restoperation = () => {
+//     count = 10;
+//     h1element_seconds.innerHTML = count;
    
-}
+// }
 
 const startoperation = () => {
     setTimeout(() => {
